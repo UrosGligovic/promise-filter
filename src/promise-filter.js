@@ -23,7 +23,6 @@ class PromiseArrayHandler {
         })
         .then(x => {
           this.increment();
-          return x;
         })
     });
   }
@@ -53,9 +52,9 @@ module.exports = async (promises) => {
 
   promiseTracker.onComplete = async (ok, nok) => {
     promiseTracker.endFunction({
-      successful: promiseTracker.successful,
+      successfulCount: promiseTracker.successful,
       results: promiseTracker.results,
-      failed: promiseTracker.failed,
+      failedCount: promiseTracker.failed,
       errors: promiseTracker.errors
     });
   };
