@@ -1,14 +1,3 @@
-//const fetch = require("node-fetch");
-//const sleep = require('sleep-promise');
-//console.time("executedIn");
-// let body = {
-
-//   name: "ime",
-//   prezime: "prezime"
-
-// }
-
-
 class PromiseArrayHandler {
 
   constructor(goal, whenDone) {
