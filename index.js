@@ -8,10 +8,11 @@ class PromiseArrayHandler {
     this.failed = 0;
     this.results = [];
     this.errors = []
+    this.promises = goal;
   }
 
   handle() {
-    promises.forEach(x => {
+    this.promises.forEach(x => {
       x.then(x => {
         this.successful++;
         this.results.push(x);
@@ -46,7 +47,7 @@ class PromiseArrayHandler {
 
 }
 
-export async function filterPromises(promises) {
+module.exports.filterPromises = async (promises) => {
   let promiseTracker = new PromiseArrayHandler(promises);
   promiseTracker.handle();
 
