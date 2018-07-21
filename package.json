@@ -1,8 +1,8 @@
 {
   "name": "promise-list-filter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "filters promises from a list and returns object with successful and failed promises",
-  "main": "promise-filter.js",
+  "main": "src/promise-filter.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
