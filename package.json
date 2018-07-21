@@ -1,5 +1,5 @@
 {
-  "name": "promise-filter",
+  "name": "promise-list-filter",
   "version": "1.0.0",
   "description": "filters promises from a list and returns object with successful and failed promises",
   "main": "promise-filter.js",
