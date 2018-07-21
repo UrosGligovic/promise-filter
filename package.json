@@ -15,9 +15,10 @@
   ],
   "author": "ugligovic",
   "license": "Apache License 2.0",
+  "homepage": "https://github.com/UrosGligovic/promise-filter",
   "repository": {
     "type": "git",
-    "url": "https://github.com/UrosGligovic/promise-filter/"
+    "url": "git+https://github.com/UrosGligovic/promise-filter.git"
   },
   "devDependencies": {
     "node-fetch": "^2.1.2"
