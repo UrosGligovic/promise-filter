@@ -1,5 +1,5 @@
 ### promise-filter
-Module intended for scenarios where not all promises from a list of promises must be resolved (partial responses are ok). Executes list of promises and returns object containing both resolved and rejected responses in two separate lists.
+Module intended for scenarios where not all promises from a list of promises must be resolved. Executes list of promises and returns object containing both resolved and rejected responses in two separate lists.
 
 ### Install
 `npm install promise-filter`
@@ -15,6 +15,16 @@ for (let i = 0; i < 21; i++) {
 }
 
 filterPromises(promises)
-.then(x=>console.log(x))  //{ successfulCount: 1,results: [ {resultObject} ],failedCount: 1, errors: [ {error} ] }
+.then(x=>yourFunctionThatWillHandleTheResponse(x))
 .catch(err => console.error(err));  
+```
+
+### Return Object Structure
+
+```
+{ successfulCount: $numberOfResolvedPromises,
+  results: $ListOfResolvedValues,
+  failedCount: $numberOfRejectedPromises,
+  errors:  $ListOfRejections }`
+
 ```
