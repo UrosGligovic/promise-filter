@@ -18,7 +18,10 @@
   "homepage": "https://github.com/UrosGligovic/promise-filter",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/UrosGligovic/promise-filter.git"
+    "url": "https://github.com/UrosGligovic/promise-filter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/UrosGligovic/promise-filter/issues"
   },
   "devDependencies": {
     "node-fetch": "^2.1.2"
