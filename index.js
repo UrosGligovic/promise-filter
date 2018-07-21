@@ -46,30 +46,6 @@ class PromiseArrayHandler {
 
 }
 
-// let callApi = (number) => fetch('https://ugligovic.com/apiClientTest.php', {
-//   method: 'POST',
-//   headers: {
-//     Accept: 'application/json',
-//     'Content-Type': 'application/json',
-//     'numHeader': number
-//   },
-//   body: JSON.stringify({
-//     num: number
-//   })
-// })
-//   .then((response) => response.json());
-
-// const callApi = (number) => {
-//   return sleep(Math.random() * 10).then(() => {
-//     if (number % 2 == 0) {
-//       return number
-//      } else {
-//        throw "jebiga"
-//      }
-
-//   })
-// }
-
 export async function handlePromises(promises) {
   let promiseTracker = new PromiseArrayHandler(promises);
   promiseTracker.handle();
@@ -85,20 +61,6 @@ export async function handlePromises(promises) {
   return promiseTracker;
 
 }
-
-
-// let promises = []
-// for (let i = 0; i < 21; i++) {
-//   promises.push(callApi(i));
-// }
-
-// handlePromises(promises)
-//   .then(x => x.results)
-//   .then(x=>x.map(x=>x.Body))
-//   .then(x=>console.log(x))
-//   .catch(x => console.log("EROR" + x));
-
-
 
 
 
