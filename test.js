@@ -1,4 +1,4 @@
-const promiseFilter = require("./index.js");
+const filterPromises = require("./index.js");
 const sleep = require('sleep-promise');
 
 const callApi = (number) => {
@@ -17,6 +17,6 @@ for (let i = 0; i < 21; i++) {
   promises.push(callApi(i));
 }
 
-promiseFilter.filterPromises(promises)
+filterPromises(promises)
 .then(x=>console.log(x))
 .catch(err => console.error(err));

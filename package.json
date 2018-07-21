@@ -10,7 +10,8 @@
     "promise.all",
     "promises",
     "promise",
-    "filter"
+    "filter",
+    "async"
   ],
   "author": "ugligovic",
   "license": "ISC",
