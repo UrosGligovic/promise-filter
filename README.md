@@ -1,5 +1,5 @@
 ### promise-filter
-Module intended for scenarios where not all promises from a list of promises must be resolved. Executes list of promises and returns object containing both resolved and rejected responses in two separate lists.
+Module intended for scenarios where not all promises from a list of promises must be resolved (partial responses are ok). Executes list of promises and returns object containing both resolved and rejected responses in two separate lists.
 
 ### Install
 `npm install promise-filter`
