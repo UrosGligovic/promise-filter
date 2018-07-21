@@ -9,12 +9,12 @@ Module intended for scenarios where not all promises from a list of promises mus
 ```
 var filterPromises= require("promise-filter");
 
-let promises = []
+let listOfPromises = []
 for (let i = 0; i < 21; i++) {
-  promises.push(functionThatReturnsAPromise(i));
+  listOfPromises .push(functionThatReturnsAPromise(i));
 }
 
-filterPromises(promises)
+filterPromises(listOfPromises)
 .then(x=>yourFunctionThatWillHandleTheResponse(x))
 .catch(err => console.error(err));  
 ```
