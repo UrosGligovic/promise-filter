@@ -46,7 +46,7 @@ class PromiseArrayHandler {
 
 }
 
-export async function handlePromises(promises) {
+export async function filterPromises(promises) {
   let promiseTracker = new PromiseArrayHandler(promises);
   promiseTracker.handle();
 
