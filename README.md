@@ -19,7 +19,7 @@ filterPromises(promises)
 .catch(err => console.error(err));  
 ```
 
-### Return Object Structure
+### Response Object Structure
 
 ```
 { successfulCount: $numberOfResolvedPromises,
