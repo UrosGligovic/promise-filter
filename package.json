@@ -1,0 +1,21 @@
+{
+  "name": "promise-filter",
+  "version": "1.0.0",
+  "description": "filters promises from a list and returns object with successful and failed promises",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "promise.all",
+    "promises",
+    "promise",
+    "filter"
+  ],
+  "author": "ugligovic",
+  "license": "ISC",
+  "repository" :
+  { "type" : "git"
+  , "url" : "https://github.com/UrosGligovic/promise-filter.git"
+  }
+}
