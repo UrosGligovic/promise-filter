@@ -7,11 +7,11 @@ Module intended for scenarios where not all promises from a list of promises mus
 ### Usage
 
 ```
-var filterPromises= require("promise-list-filter");
+var filterPromises = require("promise-list-filter");
 
 let listOfPromises = []
 for (let i = 0; i < 21; i++) {
-  listOfPromises .push(functionThatReturnsAPromise(i));
+  listOfPromises.push(functionThatReturnsAPromise(i));
 }
 
 filterPromises(listOfPromises)
