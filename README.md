@@ -25,6 +25,6 @@ filterPromises(listOfPromises)
 { successfulCount: $numberOfResolvedPromises,
   results: $ListOfResolvedValues,
   failedCount: $numberOfRejectedPromises,
-  errors:  $ListOfRejections }`
+  errors:  $ListOfRejections }
 
 ```
